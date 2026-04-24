@@ -41,6 +41,12 @@ Visual-focused critique for:
 - weak visual ownability
 - dribbblified hierarchy
 
+### `landing-page-copy`
+Externally grounded landing-page/homepage copy skill synthesized from baseline skills for conversion structure and research-first copy discipline.
+
+### `visual-style-guide-copy`
+Externally grounded skill for writing brand-guideline and visual-style-guide copy that is structured, practical, and usable by real teams.
+
 ## Why this repo exists
 
 A lot of review feedback is too vague to be useful:
@@ -113,6 +119,8 @@ skills/
   brand-review/
   generic-crap-review/
   anti-generic-visual-review/
+  landing-page-copy/
+  visual-style-guide-copy/
 examples/
 scap-creator/
 CONTRIBUTING.md
