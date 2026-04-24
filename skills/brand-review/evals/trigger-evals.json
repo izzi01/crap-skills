@@ -1,0 +1,102 @@
+[
+  {
+    "id": "trigger-01",
+    "query": "review this homepage direction please. the founder loves it because it looks 'premium' but to me it feels like generic ai sludge: purple gradients, glass cards, vague copy about transformation, and a big CTA that just says Learn More. i want a harsh critique of both the messaging and the visual system.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-02",
+    "query": "i have 3 Astro homepage variants (k1, k2, k3) and they are starting to collapse into the same safe voice. can you audit both the copy and the visual direction, tell me where they feel interchangeable, and suggest route-specific fixes?",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-03",
+    "query": "here's a screenshot of our study-abroad landing page. be brutal: does this feel like a real brand or just a dribbblified template? i need notes on audience clarity, proof, hierarchy, imagery, and what to delete first.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-04",
+    "query": "can you critique this Figma hero section? the visual designer went hard on glow, mesh gradients, floating stats, and stock-photo students. the copy says 'world-class pathway to your future'. i want concrete edits, not polite praise.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-05",
+    "query": "our B2B AI ops homepage looks expensive but says nothing. headline is 'orchestrate intelligent outcomes at scale', subhead is generic, cards are all identical, and the whole page could belong to any startup from 2024. give me a brand review.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-06",
+    "query": "please review this landing page code + screenshot together. i want to know where the copy is faceless, where the layout is trend-following, and how to make the page feel more ownable without redesigning everything from scratch.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-07",
+    "query": "this mockup is polished but i don't trust it. can you call out the fake-premium visual stuff, the empty claims, and the exact places where we need proof instead of vibes?",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-08",
+    "query": "i need you to turn 'this feels generic' into a concrete review framework and maybe some Vitest checks for our homepage variants. focus on audience specificity, proof, visual ownability, and route differentiation.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-09",
+    "query": "we're refreshing a fintech homepage. right now it has gradient sludge, fake glass, trust logos, and lines like 'unlock your financial future'. review both the visual language and the copy like a skeptical brand director.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-10",
+    "query": "compare these two landing page directions and tell me which one feels more brand-specific. i care about the message, the CTA posture, the hierarchy, and whether the visuals still have any identity if you remove the logo.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-11",
+    "query": "can you fix the alignment bug in my hero buttons? the left button sits 2px lower on Safari.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-12",
+    "query": "i only need a WCAG contrast audit for this screen. don't rewrite the copy or critique the visual style, just check accessibility issues.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-13",
+    "query": "write 5 alternate taglines for our homepage. keep the current layout and design, i only want headline options.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-14",
+    "query": "turn this Figma file into responsive HTML and Tailwind. no critique needed, just implementation.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-15",
+    "query": "extract the color palette and typography tokens from this mockup for our design system docs.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-16",
+    "query": "give me CSS for a glassmorphism pricing card with a purple glow background.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-17",
+    "query": "can you summarize these user interview notes into JTBD bullets for our onboarding flow?",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-18",
+    "query": "please proofread this hero copy for grammar only. keep the tone, structure, and design direction exactly as they are.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-19",
+    "query": "i need alt text for 12 homepage screenshots and marketing images.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-20",
+    "query": "help me write a Playwright test that clicks the CTA and checks the signup modal opens.",
+    "should_trigger": false
+  }
+]

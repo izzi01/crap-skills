@@ -1,0 +1,192 @@
+{
+  "skill_name": "brand-review",
+  "mode": "codex-proxy-trigger-eval",
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0,
+    "accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": "trigger-01",
+      "query": "review this homepage direction please. the founder loves it because it looks 'premium' but to me it feels like generic ai sludge: purple gradients, glass cards, vague copy about transformation, and a big CTA that just says Learn More. i want a harsh critique of both the messaging and the visual system.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a harsh critique of both homepage messaging and visual direction, centered on generic AI-generated brand tropes and the need for a more ownable, specific brand system.",
+      "pass": true
+    },
+    {
+      "id": "trigger-02",
+      "query": "i have 3 Astro homepage variants (k1, k2, k3) and they are starting to collapse into the same safe voice. can you audit both the copy and the visual direction, tell me where they feel interchangeable, and suggest route-specific fixes?",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for an audit of both homepage copy and visual direction across multiple variants to identify where they feel interchangeable and to suggest route-specific fixes, which directly matches the brand-review skill.",
+      "pass": true
+    },
+    {
+      "id": "trigger-03",
+      "query": "here's a screenshot of our study-abroad landing page. be brutal: does this feel like a real brand or just a dribbblified template? i need notes on audience clarity, proof, hierarchy, imagery, and what to delete first.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a harsh screenshot-based critique of a landing page across both messaging and visual brand signals, including genericness, audience clarity, proof, hierarchy, imagery, and deletion priorities, which matches the brand-review skill directly.",
+      "pass": true
+    },
+    {
+      "id": "trigger-04",
+      "query": "can you critique this Figma hero section? the visual designer went hard on glow, mesh gradients, floating stats, and stock-photo students. the copy says 'world-class pathway to your future'. i want concrete edits, not polite praise.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a blunt critique of both the hero's visual direction and generic copy in a Figma design, which squarely matches the brand-review skill's combined brand/copy/visual critique purpose.",
+      "pass": true
+    },
+    {
+      "id": "trigger-05",
+      "query": "our B2B AI ops homepage looks expensive but says nothing. headline is 'orchestrate intelligent outcomes at scale', subhead is generic, cards are all identical, and the whole page could belong to any startup from 2024. give me a brand review.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a brand review of a homepage and calls out both generic copy and interchangeable visual structure, which is exactly the brand-review skill's scope.",
+      "pass": true
+    },
+    {
+      "id": "trigger-06",
+      "query": "please review this landing page code + screenshot together. i want to know where the copy is faceless, where the layout is trend-following, and how to make the page feel more ownable without redesigning everything from scratch.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a combined critique of landing page code and screenshot focused on faceless copy, trend-following layout, and making the page feel more ownable without a full redesign, which matches the brand-review skill directly.",
+      "pass": true
+    },
+    {
+      "id": "trigger-07",
+      "query": "this mockup is polished but i don't trust it. can you call out the fake-premium visual stuff, the empty claims, and the exact places where we need proof instead of vibes?",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a combined critique of mockup visuals and brand copy claims, focusing on fake-premium aesthetics, empty messaging, and where concrete proof is needed instead of vague brand vibes.",
+      "pass": true
+    },
+    {
+      "id": "trigger-08",
+      "query": "i need you to turn 'this feels generic' into a concrete review framework and maybe some Vitest checks for our homepage variants. focus on audience specificity, proof, visual ownability, and route differentiation.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.98,
+      "reason": "The prompt explicitly asks for a framework to evaluate homepage variants against genericness using audience specificity, proof, visual ownability, and differentiation, which is a direct match for combined copy and visual brand critique.",
+      "pass": true
+    },
+    {
+      "id": "trigger-09",
+      "query": "we're refreshing a fintech homepage. right now it has gradient sludge, fake glass, trust logos, and lines like 'unlock your financial future'. review both the visual language and the copy like a skeptical brand director.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for a skeptical review of both homepage visual language and copy, with emphasis on generic fintech tropes and making the brand feel less templated and more ownable, which matches the brand-review skill directly.",
+      "pass": true
+    },
+    {
+      "id": "trigger-10",
+      "query": "compare these two landing page directions and tell me which one feels more brand-specific. i care about the message, the CTA posture, the hierarchy, and whether the visuals still have any identity if you remove the logo.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for comparative critique of two landing page directions across message, CTA posture, hierarchy, and logo-independent visual identity, which is exactly the brand-review skill’s combined copy-and-visual brand specificity scope.",
+      "pass": true
+    },
+    {
+      "id": "trigger-11",
+      "query": "can you fix the alignment bug in my hero buttons? the left button sits 2px lower on Safari.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt is a narrow implementation/debugging request about Safari button alignment rather than a combined copy and visual brand critique focused on specificity, ownability, or reducing genericness.",
+      "pass": true
+    },
+    {
+      "id": "trigger-12",
+      "query": "i only need a WCAG contrast audit for this screen. don't rewrite the copy or critique the visual style, just check accessibility issues.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt is accessibility-only and explicitly excludes copy and visual-style critique, so it does not match the brand-review skill's combined brand critique purpose.",
+      "pass": true
+    },
+    {
+      "id": "trigger-13",
+      "query": "write 5 alternate taglines for our homepage. keep the current layout and design, i only want headline options.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.95,
+      "reason": "The prompt is a narrow copywriting request for alternate homepage headlines and explicitly excludes visual or broader brand critique.",
+      "pass": true
+    },
+    {
+      "id": "trigger-14",
+      "query": "turn this Figma file into responsive HTML and Tailwind. no critique needed, just implementation.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt is explicitly implementation-only for converting a Figma file to responsive HTML and Tailwind, with no request for brand critique, copy review, or visual direction evaluation.",
+      "pass": true
+    },
+    {
+      "id": "trigger-15",
+      "query": "extract the color palette and typography tokens from this mockup for our design system docs.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt is token-extraction-only from a mockup for documentation and does not ask for any copy-plus-visual brand critique, differentiation, or de-genericizing guidance.",
+      "pass": true
+    },
+    {
+      "id": "trigger-16",
+      "query": "give me CSS for a glassmorphism pricing card with a purple glow background.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt is a pure implementation request for a specific visual style in CSS, not a combined copy-and-visual brand critique or direction review.",
+      "pass": true
+    },
+    {
+      "id": "trigger-17",
+      "query": "can you summarize these user interview notes into JTBD bullets for our onboarding flow?",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt is a content synthesis request for onboarding JTBD bullets, not a critique or strengthening task focused on combined brand copy and visual direction.",
+      "pass": true
+    },
+    {
+      "id": "trigger-18",
+      "query": "please proofread this hero copy for grammar only. keep the tone, structure, and design direction exactly as they are.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt is explicitly grammar-only and asks to preserve the existing tone, structure, and design direction rather than requesting any brand, copy-strategy, or visual critique.",
+      "pass": true
+    },
+    {
+      "id": "trigger-19",
+      "query": "i need alt text for 12 homepage screenshots and marketing images.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt is alt-text-only accessibility/content generation for images and does not ask for brand critique of copy plus visual direction or for making the brand feel less generic or more ownable.",
+      "pass": true
+    },
+    {
+      "id": "trigger-20",
+      "query": "help me write a Playwright test that clicks the CTA and checks the signup modal opens.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt is a pure testing/automation request about writing a Playwright interaction test and does not ask for any copy, visual, or brand critique.",
+      "pass": true
+    }
+  ]
+}

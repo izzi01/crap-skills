@@ -1,0 +1,108 @@
+{
+  "skill_name": "brand-review",
+  "evals": [
+    {
+      "id": "review-01-edu-landing-ai-sludge",
+      "prompt": "You are reviewing a Vietnamese study-abroad landing page for parents and students. The hero has a purple-blue mesh gradient, two glowing CTA buttons, a stock photo of a smiling student in a blazer, and three floating glass cards that say 'Top Quality', 'Global Pathway', and 'Premium Mentorship'. The headline says 'Nâng tầm tương lai cùng giải pháp toàn diện cho hành trình du học Pháp'. The body copy mentions transformation, dreams, and success but never says what happens after contact. The page includes a logo row, generic stats, and a contact form. Please give a blunt brand review of both the copy and the visual direction, then suggest concrete edits.",
+      "expected_output": "Should call out faceless audience language, mechanism-free promises, gradient sludge, fake premium glass, weak proof, and stock-premium sameness. Should suggest naming parents/students explicitly, replacing puffery with operational detail, and simplifying the hero hierarchy.",
+      "must_include_concepts": [
+        "audience gaps",
+        "proof gaps",
+        "gradient sludge",
+        "fake premium glass",
+        "concrete copy edits",
+        "concrete visual edits"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-02-b2b-ai-template-hero",
+      "prompt": "Critique this B2B AI operations homepage concept. Dark navy background, neon blue glow, dashboard mockup floating in perspective, and a headline that says 'Orchestrate intelligent outcomes across every workflow'. Subhead: 'Enterprise-ready automation for the future of work'. Under that are six nearly identical cards with icons for speed, scale, visibility, compliance, collaboration, and ROI. There are trust logos from fake companies and a CTA that says 'Book Demo'. The founder says it looks premium. I think it looks like every AI startup site from the last two years. Review it harshly.",
+      "expected_output": "Should call out template hero, anonymous SaaS card grid, fake trust, empty enterprise language, and weak ownability. Should recommend one dominant narrative, fewer cards, real proof surfaces, and a more ownable visual or typographic move.",
+      "must_include_concepts": [
+        "template hero",
+        "anonymous SaaS card grid",
+        "weak brand-ownable cues",
+        "proof surfaces",
+        "decision flow"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-03-variant-collapse",
+      "prompt": "I have two homepage variants for the same brand. Variant A uses editorial serif headlines, warm photos, and a CTA that says 'Talk to an advisor'. Variant B uses a cooler palette, rounded cards, and a CTA that says 'Get your personalized plan'. But when I read the copy, both variants say almost the same thing: personalized journey, expert guidance, clear roadmap, trusted support. Review them as if you suspect they are collapsing into one safe brand voice. Tell me how to keep them differentiated in both copy and visuals.",
+      "expected_output": "Should explicitly call out variant differentiation risk, interchangeable copy claims, and insufficient route-specific voice. Should suggest distinct audience posture, CTA posture, and visual silhouette differences.",
+      "must_include_concepts": [
+        "variant differentiation risks",
+        "route-specific voice",
+        "CTA posture",
+        "visual silhouette"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-04-strong-copy-weak-surface",
+      "prompt": "Please review this situation: the homepage copy is actually pretty solid. It names parents, names the student's confusion, explains the roadmap, and lists proof like certificate levels, visa support, hotline, and teacher bios. But visually the page is overloaded with glows, giant rounded cards, decorative icon pills, soft blur backdrops, and three different accent gradients. The founder thinks the visuals make it feel premium. I think they make the credible copy feel less trustworthy. Give me a brand review.",
+      "expected_output": "Should acknowledge that the message layer is stronger than the visual layer, praise what's working, then say the visuals are undermining credibility through decorative noise and fake premium treatment. Should recommend restraint, stronger structure, and more anchored proof blocks.",
+      "must_include_concepts": [
+        "what already works",
+        "decorative noise",
+        "fake premium",
+        "anchored proof",
+        "restraint"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-05-strong-surface-weak-copy",
+      "prompt": "Review this wellness-tech landing page. The visual direction is surprisingly distinctive: monochrome photography, sharp type, asymmetrical composition, and almost no gradients. It feels designed. But the copy is all 'reimagine your potential', 'unlock a better tomorrow', and 'personalized support for every step of your journey'. There is no explanation of who it is for or how the service works. I want a critique that doesn't flatten the whole thing—keep what is visually ownable, but be brutal about the messaging.",
+      "expected_output": "Should separate visual strengths from copy weaknesses, avoid flattening the design, and push the copy toward audience, problem, mechanism, and proof. Should not say everything is bad.",
+      "must_include_concepts": [
+        "what already works",
+        "copy genericness",
+        "audience gaps",
+        "mechanism clarity",
+        "proof gaps"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-06-visual-plus-copy-to-tests",
+      "prompt": "We have Astro pages for three homepage variants in a repo and the team keeps saying 'this one feels too AI-generated' without being specific. I want you to turn that into a concrete brand review and then propose repo-native Vitest checks we can use to catch generic filler, weak proof signals, missing audience naming, and route collapse. The visual problem is that all three pages use the same big gradient hero, same card rhythm, and same polished student imagery.",
+      "expected_output": "Should give both a critique and a testing strategy. Should propose test categories around audience specificity, proof density, banned filler, and variant differentiation. Should mention visual sameness even if the tests are text-first.",
+      "must_include_concepts": [
+        "Vitest",
+        "audience specificity",
+        "proof density",
+        "variant differentiation",
+        "visual sameness"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-07-fintech-moodboard-not-flow",
+      "prompt": "Here's a fintech marketing page description: hero with a big 3D coin render, floating charts, glowing metrics, black background, tiny nav, and a huge headline about 'unlocking financial freedom at scale'. The next section is a wall of feature cards and then a testimonial carousel. It all looks expensive, but when I ask what the product does in 10 seconds, no one can answer clearly. Review it like a skeptical brand director.",
+      "expected_output": "Should call out moodboard instead of decision flow, hierarchy failure, decorative complexity, and vague claims. Should suggest simplifying the hero, clarifying the offer, and using visuals that explain rather than distract.",
+      "must_include_concepts": [
+        "moodboard instead of decision flow",
+        "hierarchy failures",
+        "copy genericness",
+        "simplify hero",
+        "clarify offer"
+      ],
+      "files": []
+    },
+    {
+      "id": "review-08-positive-control-ownable-page",
+      "prompt": "Give me a brand review of this homepage direction: clear audience-specific headline, real process steps, teacher names, hotline, concrete proof blocks, restrained palette, documentary-feeling photos from real classrooms, and a layout with one dominant CTA and very little decorative chrome. The team still wants feedback, but I do not want fake negativity. I want a sharp review that acknowledges what works and only points out the highest-leverage refinements.",
+      "expected_output": "Should stay sharp without inventing problems. Should acknowledge strong audience/proof/hierarchy choices and then offer a few focused refinements. This is a positive control for balance.",
+      "must_include_concepts": [
+        "what already works",
+        "highest-leverage changes",
+        "proof surfaces",
+        "clear hierarchy"
+      ],
+      "files": []
+    }
+  ]
+}
