@@ -21,6 +21,24 @@ It is designed to produce:
 - differentiation guidance across variants
 - repo-native test ideas when the work is code-backed
 
+### `generic-crap-review`
+A focused copy-review skill for catching:
+- faceless audience language
+- vague claims
+- presentation/meta wording
+- weak proof density
+- generic CTA posture
+
+### `anti-generic-visual-review`
+A focused visual-review skill for catching:
+- gradient sludge
+- fake premium glass
+- decorative card grids
+- AI-uncanny imagery
+- dribbblified hierarchy
+- weak visual ownability
+
+
 ## Repo structure
 
 ```text
@@ -29,6 +47,13 @@ skills/
     SKILL.md
     references/
     evals/
+  generic-crap-review/
+    SKILL.md
+    references/
+  anti-generic-visual-review/
+    SKILL.md
+    references/
+examples/
 ```
 
 ## Evaluation artifacts
@@ -66,3 +91,7 @@ This is for people who are tired of:
 - fake premium startup polish
 - interchangeable variants
 - brand work that looks expensive but says nothing
+
+## Examples
+
+See `examples/` for reusable prompt sets for all three packaged skills.
