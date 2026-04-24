@@ -1,0 +1,40 @@
+{
+  "skill_name": "visual-style-guide-copy",
+  "evals": [
+    {
+      "id": "review-01-full-brand-guide",
+      "prompt": "Create the copy structure for a visual style guide for a modern education brand. We need sections for logo, color, typography, imagery, layout, voice/tone, applications, and do/don't rules. The current brand notes are scattered and too fluffy.",
+      "expected_output": "Should produce a structured, reference-friendly guide that covers the major brand-system sections without turning into empty brand theater.",
+      "must_include_concepts": ["structure", "logo", "color", "typography", "imagery", "do/don't"],
+      "files": []
+    },
+    {
+      "id": "review-02-rewrite-messy-guidelines",
+      "prompt": "Rewrite a messy brand guideline doc that spends too much time admiring the brand and not enough time telling people what to do. We need cleaner rules, clearer rationale, and examples teams can actually apply.",
+      "expected_output": "Should reduce fluff, increase practical guidance, and produce more usable rule-oriented copy.",
+      "must_include_concepts": ["practical guidance", "rules", "rationale", "examples", "less fluff"],
+      "files": []
+    },
+    {
+      "id": "review-03-section-rewrite-typography-imagery",
+      "prompt": "Only rewrite the typography and imagery sections of our style guide. Designers keep improvising because the current text is too vague. Make those sections clearer and more actionable.",
+      "expected_output": "Should handle a partial rewrite cleanly without overbuilding the rest of the guide, and should make the two sections more concrete and usable.",
+      "must_include_concepts": ["section rewrite", "typography", "imagery", "actionable", "concrete"],
+      "files": []
+    },
+    {
+      "id": "review-04-brand-voice-inside-visual-guide",
+      "prompt": "Write the brand voice and tone section for a visual style guide. It should fit inside a broader brand guideline doc and help marketers and designers keep the written voice aligned with the visual system.",
+      "expected_output": "Should write a voice/tone section that feels like a practical part of a larger guide, not a free-floating writing manifesto.",
+      "must_include_concepts": ["voice", "tone", "practical", "aligned with visual system", "guide section"],
+      "files": []
+    },
+    {
+      "id": "review-05-positive-control-light-edit",
+      "prompt": "Our style guide is already pretty solid: clear sections, good examples, and useful logo/color/type rules. I still want improvements, but please don't rewrite the whole thing or invent fake problems.",
+      "expected_output": "Should stay balanced, acknowledge what already works, and suggest focused improvements instead of flattening the document into a generic template.",
+      "must_include_concepts": ["what already works", "focused improvements", "balance", "clarity", "usability"],
+      "files": []
+    }
+  ]
+}

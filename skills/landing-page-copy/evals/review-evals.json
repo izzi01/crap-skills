@@ -1,0 +1,40 @@
+{
+  "skill_name": "landing-page-copy",
+  "evals": [
+    {
+      "id": "review-01-study-abroad-homepage",
+      "prompt": "Write homepage copy for a Vietnamese consultancy that helps students and parents plan French language study and du học pathways. The current site sounds generic and keeps saying things like 'nâng tầm tương lai' and 'giải pháp toàn diện'. We need a clearer hero, proof section, 3-step process, FAQ, and CTA.",
+      "expected_output": "Should name the audience clearly, replace puffery with operational detail, include believable proof/trust surfaces, and use a CTA that matches the real next step.",
+      "must_include_concepts": ["audience", "offer", "proof", "how it works", "CTA"],
+      "files": []
+    },
+    {
+      "id": "review-02-b2b-saas-generic-copy",
+      "prompt": "Rewrite the copy for a B2B SaaS landing page. Right now the headline is 'Orchestrate intelligent outcomes at scale' and the rest is generic enterprise filler. We need copy for hero, problem, mechanism, proof, and final CTA that sounds clear instead of abstract.",
+      "expected_output": "Should reduce abstraction, make the offer legible, show mechanism instead of buzzwords, and produce a believable CTA posture.",
+      "must_include_concepts": ["problem", "mechanism", "proof", "CTA posture", "specificity"],
+      "files": []
+    },
+    {
+      "id": "review-03-strong-offer-weak-proof",
+      "prompt": "The offer is actually good, but the landing page copy has almost no proof. It promises faster approvals and cleaner workflows, but gives no numbers, no examples, and no trust surfaces. Rewrite the key sections without making them sound fake-premium.",
+      "expected_output": "Should preserve the offer while strengthening proof, trust, and concrete next-step language without adding empty hype.",
+      "must_include_concepts": ["proof", "trust", "specificity", "CTA", "no hype"],
+      "files": []
+    },
+    {
+      "id": "review-04-cta-posture-varianting",
+      "prompt": "Give me three variations of the same landing page core message for a service business, each with a different CTA posture: low-friction, medium-friction, and high-friction. Keep the audience and offer stable but make the commitment level clear.",
+      "expected_output": "Should keep the message consistent while changing CTA posture appropriately across the three versions.",
+      "must_include_concepts": ["CTA posture", "low-friction", "medium-friction", "high-friction", "consistency"],
+      "files": []
+    },
+    {
+      "id": "review-05-positive-control-clear-page",
+      "prompt": "We already have a pretty solid homepage draft: named audience, clear offer, real proof, strong process section, and a sensible CTA. I still want sharper copy, but I don't want fake negativity or a total rewrite. Improve it carefully.",
+      "expected_output": "Should stay balanced, acknowledge what works, and make focused improvements instead of flattening the page into a new generic draft.",
+      "must_include_concepts": ["what already works", "focused improvements", "clarity", "proof", "balance"],
+      "files": []
+    }
+  ]
+}

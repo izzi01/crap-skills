@@ -1,0 +1,102 @@
+[
+  {
+    "id": "trigger-01",
+    "query": "write landing page copy for a study abroad consultancy that helps Vietnamese students and parents figure out French language study and hồ sơ du học. i need headline, subhead, sections, CTA, and FAQ.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-02",
+    "query": "rewrite this homepage hero so it stops sounding generic. right now it says 'unlock your future with world-class support' and the CTA is just Learn More.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-03",
+    "query": "i need conversion-focused copy for a B2B SaaS landing page: hero, problem section, proof block, how it works, and final CTA.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-04",
+    "query": "help me rewrite the FAQ and CTA copy on this fintech landing page so the next step feels clearer and more believable.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-05",
+    "query": "turn these customer notes into a stronger homepage message hierarchy. i need audience clarity, offer clarity, proof, and less consultant filler.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-06",
+    "query": "give me 3 versions of landing page copy for a new product launch, each with a different CTA posture and proof angle.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-07",
+    "query": "our homepage sounds bland and abstract. can you rewrite it so the reader knows exactly who it's for, what it does, and why they should trust it?",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-08",
+    "query": "i have rough product notes and VOC snippets. turn them into a landing page draft using a conversion structure that actually makes sense.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-09",
+    "query": "write homepage copy for a service business, but don't make it sound like generic agency sludge. i need real sections and believable CTA language.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-10",
+    "query": "rewrite these page sections with stronger specificity: hero, proof block, how-it-works, FAQ, and final CTA.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-11",
+    "query": "review this Figma mockup and tell me whether the visual hierarchy feels premium enough.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-12",
+    "query": "extract the color palette, spacing tokens, and typography choices from this homepage screenshot.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-13",
+    "query": "fix the Tailwind classes in my hero so the CTA buttons wrap correctly on mobile.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-14",
+    "query": "proofread this landing page for grammar only. don't change the message hierarchy or the CTA strategy.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-15",
+    "query": "i only need a brand critique of this screenshot. focus on visuals, hierarchy, and whether it feels dribbblified.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-16",
+    "query": "give me CSS for a glassmorphism pricing card with a glow effect and purple background.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-17",
+    "query": "create a visual style guide for our brand with logo, color, typography, and imagery rules.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-18",
+    "query": "write alt text for the marketing images on this page.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-19",
+    "query": "turn this Figma file into Astro components and wire up the contact form.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-20",
+    "query": "i need a tone-of-voice guide for internal docs and PR descriptions.",
+    "should_trigger": false
+  }
+]

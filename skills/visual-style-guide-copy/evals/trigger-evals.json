@@ -1,0 +1,102 @@
+[
+  {
+    "id": "trigger-01",
+    "query": "write a visual style guide for our startup covering logo use, color palette, typography, imagery, layout, and voice/tone.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-02",
+    "query": "help me create brand guidelines that our designers, marketers, and agency partners can actually use.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-03",
+    "query": "rewrite this messy brand guideline doc so it feels more structured, more practical, and less fluffy.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-04",
+    "query": "i need style guide copy for logo rules, color system, type hierarchy, imagery direction, and do/don't examples.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-05",
+    "query": "create a lightweight visual guide our social team can use so they stop improvising brand decisions.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-06",
+    "query": "turn these scattered brand notes into a proper style guide with sections, rules, rationale, and examples.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-07",
+    "query": "write the copy for a brand guideline page that documents photography style, composition cues, iconography, and applications.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-08",
+    "query": "i need a guideline doc that explains how the brand should look and sound across web, decks, and social.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-09",
+    "query": "rewrite only the typography and imagery sections of this style guide so teams can actually use them.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-10",
+    "query": "create a visual brand playbook with clear rules, exceptions, and do/don't examples.",
+    "should_trigger": true
+  },
+  {
+    "id": "trigger-11",
+    "query": "write landing page copy for our new SaaS product. i need hero, proof, FAQ, and CTA sections.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-12",
+    "query": "review this homepage mockup and tell me if the visuals feel too generic or too premium.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-13",
+    "query": "extract color tokens and font sizes from this Figma file into JSON for the design system.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-14",
+    "query": "fix the CSS for our button styles so the hover states match the design.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-15",
+    "query": "proofread this mission statement for grammar only.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-16",
+    "query": "give me Tailwind classes for a style-guide page layout with a sticky table of contents.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-17",
+    "query": "i need a harsh critique of our visual brand direction, not a guideline document.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-18",
+    "query": "write alt text for our logo variations and marketing images.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-19",
+    "query": "turn this style guide into Astro pages and wire up the navigation.",
+    "should_trigger": false
+  },
+  {
+    "id": "trigger-20",
+    "query": "i only need a tone-of-voice guide for engineering docs and PRs, not a visual brand guide.",
+    "should_trigger": false
+  }
+]
