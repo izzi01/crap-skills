@@ -53,10 +53,10 @@ CONCEPT_BUCKETS = {
     'medium-friction': ['medium-friction'],
     'high-friction': ['high-friction'],
     'consistency': ['consistent', 'consistency', 'same core message', 'keep the message'],
-    'what already works': ['what already works'],
-    'focused improvements': ['focused improvements', 'best rewrite moves', 'improve carefully', 'highest-leverage'],
-    'clarity': ['clarity', 'clearer', 'clear'],
-    'balance': ['what already works', 'balanced', 'careful', 'not a total rewrite'],
+    'what already works': ['what already works', "preserve the existing structure", "what's already working", 'preserve'],
+    'focused improvements': ['focused improvements', 'best rewrite moves', 'improve carefully', 'highest-leverage', 'i’ll focus on', 'focus on:', 'tightening the hero', 'sharpening cta language', 'making proof and process sections feel more concrete'],
+    'clarity': ['clarity', 'clearer', 'clear', 'tightening', 'sharpening', 'specific language'],
+    'balance': ['what already works', 'balanced', 'careful', 'not a total rewrite', 'no total rewrite', 'preserve the existing structure', 'flagging only the copy that genuinely needs work'],
 }
 
 
