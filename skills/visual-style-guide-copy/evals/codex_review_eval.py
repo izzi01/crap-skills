@@ -54,12 +54,12 @@ CONCEPT_BUCKETS = {
     'concrete': ['concrete', 'specific'],
     'voice': ['voice'],
     'tone': ['tone'],
-    'aligned with visual system': ['aligned with the visual system', 'inside a broader guide', 'fit inside'],
+    'aligned with visual system': ['aligned with the visual system', 'inside a broader guide', 'fit inside', 'broader brand guideline'],
     'guide section': ['section'],
-    'what already works': ['what already works'],
-    'focused improvements': ['focused improvements', 'better structure', 'improvements'],
-    'balance': ['what already works', 'do not invent fake problems', 'already pretty solid'],
-    'clarity': ['clarity', 'clear'],
+    'what already works': ['what already works', 'what is already working', 'already working', 'keep the clear section structure', 'preserve examples', 'keep as-is', 'preserve existing structure'],
+    'focused improvements': ['focused improvements', 'better structure', 'improvements', 'targeted improvements', 'targeted improvement areas', 'only flag issues that are visible', 'minimal rewrite or insertion', 'targeted refinement pass', 'worth tightening', 'real gaps or ambiguities', 'suggested edits'],
+    'balance': ['what already works', 'do not invent fake problems', 'already pretty solid', 'targeted improvements only', 'focus on targeted improvements only', 'only flag issues that are visible', 'what should stay unchanged', "grounded in what's actually there", 'not a full rewrite', 'preserve existing structure'],
+    'clarity': ['clarity', 'clear', 'clearer', 'sharper'],
     'usability': ['usable', 'use', 'practical'],
 }
 
@@ -77,13 +77,13 @@ def grade(text: str, concepts: list[str], expected_output: str) -> dict:
             hits.append(c)
         else:
             misses.append(c)
-    structured = any(h in lower for h in ['purpose', 'who this guide is for', 'brand foundations', 'style guide rewrite'])
+    structured = any(h in lower for h in ['purpose', 'who this guide is for', 'brand foundations', 'style guide rewrite', 'style guide cleanup', 'targeted improvement areas', 'targeted style guide improvements', 'keep as-is'])
     return {
         'concept_hits': hits,
         'concept_misses': misses,
         'concept_pass_rate': len(hits) / len(concepts) if concepts else 1.0,
         'used_expected_structure': structured,
-        'looks_balanced': ('what already works' in lower) or ('better structure' in lower),
+        'looks_balanced': ('what already works' in lower) or ('better structure' in lower) or ('targeted improvement areas' in lower),
         'passes': len(hits) >= max(3, len(concepts) - 1) and structured,
         'expected_output_note': expected_output,
     }

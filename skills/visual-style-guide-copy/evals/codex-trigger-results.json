@@ -1,0 +1,192 @@
+{
+  "skill_name": "visual-style-guide-copy",
+  "mode": "codex-proxy-trigger-eval",
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0,
+    "accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": "trigger-01",
+      "query": "write a visual style guide for our startup covering logo use, color palette, typography, imagery, layout, and voice/tone.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks to write a visual style guide covering logo use, color palette, typography, imagery, layout, and voice/tone, which directly matches the skill scope.",
+      "pass": true
+    },
+    {
+      "id": "trigger-02",
+      "query": "help me create brand guidelines that our designers, marketers, and agency partners can actually use.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.98,
+      "reason": "The prompt explicitly asks to create usable brand guidelines for designers, marketers, and agency partners, which matches the skill’s purpose of writing brand guideline and style-guide documents.",
+      "pass": true
+    },
+    {
+      "id": "trigger-03",
+      "query": "rewrite this messy brand guideline doc so it feels more structured, more practical, and less fluffy.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks to rewrite a messy brand guideline document into a more structured and practical guide, which directly matches the skill’s purpose.",
+      "pass": true
+    },
+    {
+      "id": "trigger-04",
+      "query": "i need style guide copy for logo rules, color system, type hierarchy, imagery direction, and do/don't examples.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for style guide copy covering logo rules, color system, type hierarchy, imagery direction, and do/don't examples, which directly matches the skill scope.",
+      "pass": true
+    },
+    {
+      "id": "trigger-05",
+      "query": "create a lightweight visual guide our social team can use so they stop improvising brand decisions.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks to create a lightweight visual guide for social media brand decisions, which matches visual style guide and brand guidance documentation.",
+      "pass": true
+    },
+    {
+      "id": "trigger-06",
+      "query": "turn these scattered brand notes into a proper style guide with sections, rules, rationale, and examples.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.98,
+      "reason": "The prompt explicitly asks to turn scattered brand notes into a proper style guide with sections, rules, rationale, and examples, which directly matches rewriting a visual brand/style-guide document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-07",
+      "query": "write the copy for a brand guideline page that documents photography style, composition cues, iconography, and applications.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks for copy for a brand guideline page covering photography style, composition, iconography, and applications, which directly matches visual style guide documentation.",
+      "pass": true
+    },
+    {
+      "id": "trigger-08",
+      "query": "i need a guideline doc that explains how the brand should look and sound across web, decks, and social.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.98,
+      "reason": "The prompt asks for a guideline document covering brand look and sound across web, decks, and social, which directly matches a visual style guide with brand voice and application guidance.",
+      "pass": true
+    },
+    {
+      "id": "trigger-09",
+      "query": "rewrite only the typography and imagery sections of this style guide so teams can actually use them.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks to rewrite typography and imagery sections of a style guide, which are core visual brand/style-guide guidance areas.",
+      "pass": true
+    },
+    {
+      "id": "trigger-10",
+      "query": "create a visual brand playbook with clear rules, exceptions, and do/don't examples.",
+      "expected_should_trigger": true,
+      "predicted_should_trigger": true,
+      "confidence": 0.99,
+      "reason": "The prompt explicitly asks to create a visual brand playbook with rules, exceptions, and do/don't examples, which directly matches visual brand/style-guide document creation.",
+      "pass": true
+    },
+    {
+      "id": "trigger-11",
+      "query": "write landing page copy for our new SaaS product. i need hero, proof, FAQ, and CTA sections.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.97,
+      "reason": "The prompt asks for landing page marketing copy sections, not a visual style guide or brand guidelines document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-12",
+      "query": "review this homepage mockup and tell me if the visuals feel too generic or too premium.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.96,
+      "reason": "The prompt asks for a design critique of a homepage mockup, not for creating or rewriting a visual style guide or brand guidelines document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-13",
+      "query": "extract color tokens and font sizes from this Figma file into JSON for the design system.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt asks for token extraction from a Figma file into JSON, not writing or restructuring visual style-guide copy.",
+      "pass": true
+    },
+    {
+      "id": "trigger-14",
+      "query": "fix the CSS for our button styles so the hover states match the design.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt asks for implementation-only CSS changes to button hover states, not writing or restructuring a visual style guide or brand guidelines document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-15",
+      "query": "proofread this mission statement for grammar only.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.99,
+      "reason": "The prompt asks for grammar-only proofreading of a mission statement, not creation or rewriting of visual brand/style-guide documentation.",
+      "pass": true
+    },
+    {
+      "id": "trigger-16",
+      "query": "give me Tailwind classes for a style-guide page layout with a sticky table of contents.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.95,
+      "reason": "The prompt asks for implementation-oriented Tailwind layout classes rather than copy or structure for a visual brand/style-guide document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-17",
+      "query": "i need a harsh critique of our visual brand direction, not a guideline document.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.96,
+      "reason": "The prompt asks for critique of visual brand direction rather than writing or restructuring a visual style guide or brand guidelines document.",
+      "pass": true
+    },
+    {
+      "id": "trigger-18",
+      "query": "write alt text for our logo variations and marketing images.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.78,
+      "reason": "The prompt asks for standalone accessibility alt text for image assets rather than creating or rewriting a visual style guide or brand-guideline section.",
+      "pass": true
+    },
+    {
+      "id": "trigger-19",
+      "query": "turn this style guide into Astro pages and wire up the navigation.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.93,
+      "reason": "The prompt is implementation-only, asking to convert an existing style guide into Astro pages and navigation rather than write or rewrite the style-guide copy or structure.",
+      "pass": true
+    },
+    {
+      "id": "trigger-20",
+      "query": "i only need a tone-of-voice guide for engineering docs and PRs, not a visual brand guide.",
+      "expected_should_trigger": false,
+      "predicted_should_trigger": false,
+      "confidence": 0.98,
+      "reason": "The prompt explicitly asks for a standalone tone-of-voice guide for engineering docs and PRs, not a visual brand/style-guide document.",
+      "pass": true
+    }
+  ]
+}

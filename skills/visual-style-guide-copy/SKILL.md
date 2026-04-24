@@ -19,7 +19,7 @@ Use it when the user wants to:
 - create a visual style guide
 - rewrite a brand-guidelines document
 - document logo, color, typography, imagery, and layout rules
-- write voice/tone and application guidance for a brand
+- write voice/tone and application guidance for a brand when it belongs inside a broader visual guide
 - turn loose brand decisions into a durable guide others can use
 
 ## Core rule
@@ -204,4 +204,6 @@ Use the sections that fit the request.
 
 Read when useful:
 - `references/provenance.md`
+- `references/checklist.md`
+venance.md`
 - `references/checklist.md`
